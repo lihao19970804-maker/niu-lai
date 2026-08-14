@@ -1,0 +1,18 @@
+{
+  "monitor": {
+    "title": "Example service health report",
+    "keywords": ["degraded", "timeout", "recovered"],
+    "alert_threshold": 0.34
+  },
+  "provider": {
+    "type": "static",
+    "items": [
+      {
+        "source": "public-status-demo",
+        "content": "The API reported degraded performance and intermittent timeout errors.",
+        "attributes": {"environment": "demo"}
+      }
+    ]
+  }
+}
+
