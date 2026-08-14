@@ -1,0 +1,17 @@
+{
+  "monitor": {
+    "title": "Public news research report",
+    "keywords": ["launch", "policy", "incident"],
+    "alert_threshold": 0.34
+  },
+  "provider": {
+    "type": "static",
+    "items": [
+      {
+        "source": "fictional-newswire",
+        "content": "A fictional standards body announced a policy launch for the demo ecosystem.",
+        "attributes": {"public": true, "fictional": true}
+      }
+    ]
+  }
+}
