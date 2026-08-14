@@ -1,0 +1,17 @@
+{
+  "monitor": {
+    "title": "Synthetic security event report",
+    "keywords": ["failed login", "privilege", "blocked"],
+    "alert_threshold": 0.34
+  },
+  "provider": {
+    "type": "static",
+    "items": [
+      {
+        "source": "synthetic-auth-log",
+        "content": "A demo failed login burst was blocked before any privilege change.",
+        "attributes": {"synthetic": true, "severity": "medium"}
+      }
+    ]
+  }
+}
