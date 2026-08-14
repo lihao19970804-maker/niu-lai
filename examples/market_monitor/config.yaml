@@ -1,0 +1,18 @@
+{
+  "monitor": {
+    "title": "Simulated public market signal report",
+    "keywords": ["volatility", "volume spike", "filing"],
+    "alert_threshold": 0.34
+  },
+  "provider": {
+    "type": "static",
+    "items": [
+      {
+        "source": "simulated-public-feed",
+        "content": "Demo index data shows a volume spike and elevated volatility.",
+        "attributes": {"symbol": "DEMO", "synthetic": true}
+      }
+    ]
+  }
+}
+
