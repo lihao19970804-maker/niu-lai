@@ -13,5 +13,4 @@ versioning while its public interfaces remain explicitly early-stage.
 - Simulated market, news, and security monitoring examples.
 - Unit tests, GitHub Actions, bilingual documentation, and OSS governance files.
 
-[0.1.0]: https://github.com/lihao19970804-maker/vigilmesh/releases/tag/v0.1.0
-
+[0.1.0]: https://github.com/lihao19970804-maker/niu-lai/releases/tag/v0.1.0

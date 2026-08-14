@@ -1,6 +1,6 @@
-# VigilMesh roadmap
+# 牛来 (NiuLai) roadmap
 
-VigilMesh is intentionally small at v0.1.0. Priorities will be refined through
+牛来 is intentionally small at v0.1.0. Priorities will be refined through
 issues and contributor feedback rather than implied as completed features.
 
 ## v0.2 — reliable extension foundations
@@ -23,4 +23,3 @@ issues and contributor feedback rather than implied as completed features.
 - Human approval checkpoints for sensitive agent actions.
 - Evaluation fixtures for monitoring quality and alert fatigue.
 - Optional LLM analyzers with provider-neutral contracts and cost controls.
-

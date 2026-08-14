@@ -1,4 +1,4 @@
-# Contributing to VigilMesh
+# Contributing to 牛来 (NiuLai)
 
 Thanks for helping improve this early-stage project. We value small,
 reviewable changes and honest descriptions of current behavior.
@@ -36,4 +36,3 @@ Please discuss changes to public interfaces before implementing them.
 
 By participating, you agree to follow [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 Security problems should follow [SECURITY.md](SECURITY.md), not a public issue.
-

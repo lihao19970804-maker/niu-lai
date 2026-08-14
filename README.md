@@ -1,16 +1,19 @@
-# VigilMesh
+# 牛来 (NiuLai)
 
 **An early-stage, open-source agent runtime for continuous monitoring,
 scheduled research, event-driven alerts, and structured reports.**
 
 [简体中文](README_zh-CN.md) · [Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
 
-> **Project status:** VigilMesh v0.1.0 is a functional prototype. The core
+> **Project status:** 牛来 (NiuLai) v0.1.0 is a functional prototype. The core
 > pipeline, trigger abstractions, extension interfaces, examples, and tests run
 > today; durable scheduling, production security controls, and real provider
 > integrations are planned. Do not treat it as production-ready yet.
 
-VigilMesh is for agents that keep watch after an interactive chat ends. It
+用了牛来，股市就牛来啦。这个口号是轻松的项目记忆点，不是收益承诺；牛来不
+构成投资建议，市场监控仅作为公开或模拟数据示例。
+
+牛来 (NiuLai) is for agents that keep watch after an interactive chat ends. It
 turns data-source observations into an explicit, inspectable sequence:
 
 ```text
@@ -21,7 +24,7 @@ The runtime keeps each stage replaceable and records its status and duration.
 That makes a long-running agent easier to configure, extend, debug, and audit
 than a single opaque loop.
 
-## Why VigilMesh
+## Why 牛来
 
 - **Observable by default:** every run has a unique ID, UTC timestamps,
   per-stage timing, and explicit `ok`, `skipped`, or `error` state.
@@ -38,7 +41,8 @@ than a single opaque loop.
 
 ## Quickstart
 
-VigilMesh requires Python 3.9 or newer and has no runtime dependencies.
+牛来 requires Python 3.9 or newer and has no runtime dependencies. The Python
+package and CLI remain `vigilmesh` in v0.1.0 for compatibility.
 
 ```bash
 python -m venv .venv
@@ -108,7 +112,7 @@ guidance and the current prototype limitations.
 
 ## Contributing
 
-VigilMesh welcomes focused issues and small pull requests, especially around
+牛来 welcomes focused issues and small pull requests, especially around
 provider contracts, durable scheduling, idempotency, alert adapters,
 observability, and beginner-friendly documentation. Read
 [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.

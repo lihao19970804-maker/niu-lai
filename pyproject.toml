@@ -5,11 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "vigilmesh"
 version = "0.1.0"
-description = "Early-stage open-source AI agent runtime for continuous monitoring and structured alerts"
+description = "NiuLai (牛来): early-stage open-source AI agent runtime for monitoring, research, alerts, and reports"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
-authors = [{ name = "VigilMesh contributors" }]
+authors = [{ name = "NiuLai contributors" }]
 keywords = ["agents", "monitoring", "scheduler", "alerts", "research"]
 classifiers = [
   "Development Status :: 2 - Pre-Alpha",
@@ -26,9 +26,9 @@ dependencies = []
 vigilmesh = "vigilmesh.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/lihao19970804-maker/vigilmesh"
-Repository = "https://github.com/lihao19970804-maker/vigilmesh"
-Issues = "https://github.com/lihao19970804-maker/vigilmesh/issues"
+Homepage = "https://github.com/lihao19970804-maker/niu-lai"
+Repository = "https://github.com/lihao19970804-maker/niu-lai"
+Issues = "https://github.com/lihao19970804-maker/niu-lai/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

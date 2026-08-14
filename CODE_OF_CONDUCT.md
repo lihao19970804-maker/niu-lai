@@ -14,11 +14,10 @@ information, and sustained disruption of project discussions.
 ## Scope and enforcement
 
 This code applies in repository spaces and when someone officially represents
-VigilMesh. Maintainers may edit or remove contributions that violate these
+牛来 (NiuLai). Maintainers may edit or remove contributions that violate these
 standards and may temporarily or permanently restrict participation.
 
 Report conduct concerns privately to the primary maintainer through their
 GitHub profile. Do not disclose another person's private information in a
 public issue. Reports will be reviewed promptly and as confidentially as
 practical. Retaliation against a reporter is not permitted.
-

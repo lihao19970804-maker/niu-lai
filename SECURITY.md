@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-VigilMesh is an early-stage prototype. Only the latest tagged release receives
+牛来 (NiuLai) is an early-stage prototype. Only the latest tagged release receives
 security fixes; no version is currently claimed to be production-ready.
 
 ## Reporting a vulnerability
@@ -26,4 +26,3 @@ service-level agreement.
 - The console alerter is not an authenticated delivery channel.
 - Configurations are trusted local input in v0.1.0.
 - No automated remediation, shell execution, or credential store is included.
-
