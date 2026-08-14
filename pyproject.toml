@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vigilmesh"
+version = "0.1.0"
+description = "Early-stage open-source AI agent runtime for continuous monitoring and structured alerts"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "VigilMesh contributors" }]
+keywords = ["agents", "monitoring", "scheduler", "alerts", "research"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.scripts]
+vigilmesh = "vigilmesh.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/lihao19970804-maker/vigilmesh"
+Repository = "https://github.com/lihao19970804-maker/vigilmesh"
+Issues = "https://github.com/lihao19970804-maker/vigilmesh/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.coverage.run]
+source = ["vigilmesh"]
